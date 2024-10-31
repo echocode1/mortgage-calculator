@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --Slate-100: hsl(202, 86%, 94%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-plus-jakarta-sans);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--Slate-100);
+}
+
+@media (min-width: 576px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+.inputs {
+  @apply border w-full rounded-md mt-3 font-bold text-xl 
+  text-slate900 mb-6 md:mb-2;
+}
+.radio--input {
+  @apply border px-5 py-4 mb-3 rounded-md font-bold text-lg text-slate900 hover:cursor-pointer;
+}
+
+.input--num {
+  transform: translateY(-50%);
+  top: 50%;
+}
