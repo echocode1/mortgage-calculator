@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/index.tsx","./src/components/formresult/formresult.tsx","./src/components/formsection/formsection.tsx","./src/components/formresultempty/formresultempty.tsx","./src/hooks/useform.ts","./src/types/type.ts","./vite.config.ts"],"version":"5.6.3"}
