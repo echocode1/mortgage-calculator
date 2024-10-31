@@ -3,7 +3,7 @@ import resultImg from "../../assets/images/illustration-empty.svg";
 export const FormResultEmpty = () => {
   return (
     <section
-      className="bg-payBg text-white px-6 pt-7 pb-10 md:rounded-es-scale_lg 
+      className="bg-slate900 text-white px-6 pt-7 pb-10 md:rounded-es-scale_lg 
       md:px-10 md:pt-9 md:flex md:items-center md:justify-center md:flex-col"
     >
       <img className="mx-auto mt-8 mb-6" src={resultImg} alt="resultEmptyImg" />
